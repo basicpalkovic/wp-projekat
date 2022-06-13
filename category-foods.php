@@ -101,10 +101,9 @@ if (isset($_GET['category_id'])) {
                         </p>
                         <br>
 
-                        <?php
-                        if (isset($_SESSION['customer'])) { ?>
-                            <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
-                        <?php } ?>
+
+                        <a href="<?php echo SITEURL; ?>order.php?food_id=<?php echo $id; ?>" class="btn btn-primary">Order Now</a>
+
                     </div>
                 </div>
 
